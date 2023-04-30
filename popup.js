@@ -46,13 +46,14 @@ for (const tab of tabs) {
 
   elements.add(element);
 }
-document.querySelector("ul").append(...elements);
+// document.querySelector("ul").append(...elements);
 
 const button = document.querySelector("button");
 
+
 button.addEventListener("click", async () => {
+  var tname = document.querySelector("#tname").value;
   const tabIds = tabs.map(({ id }) => id);
-  console.log(tabIds);
   const group = await chrome.tabs.group({ tabIds });
-  await chrome.tabGroups.update(group, { title: "DOCS" });
+  await chrome.tabGroups.update(group, { title: tname });
 });
