@@ -1,3 +1,6 @@
-# tabMonster
+# Tab Monster
 
-TabMonster: Chrome Extension to Manage your Tabs
+Tab Monster: Chrome Extension to Manage your Tabs
+
+
+
