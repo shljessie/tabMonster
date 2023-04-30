@@ -9,6 +9,8 @@ const tabs = await chrome.tabs.query({
 });
 // queried tabs have id, url, title ..etc
 
+console.log(tabs)
+
 
 // The Intl.Collator is a constructor for creating a collator object,
 // which is used for string comparison. In this case, it is used to compare 
@@ -50,8 +52,7 @@ const button = document.querySelector("button");
 
 button.addEventListener("click", async () => {
   const tabIds = tabs.map(({ id }) => id);
-
-  // when button is clicked it will group the tabs
+  console.log(tabIds);
   const group = await chrome.tabs.group({ tabIds });
   await chrome.tabGroups.update(group, { title: "DOCS" });
 });
