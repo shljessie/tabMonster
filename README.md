@@ -1,5 +1,5 @@
 # Tab Monster
-<img width="46" alt="Screen Shot 2023-05-01 at 8 53 44 PM" src="https://user-images.githubusercontent.com/59305253/235506402-e9d6444f-347b-4924-95ce-4f1d0774f8ce.png">
+<img width="460" alt="Screen Shot 2023-05-01 at 8 53 44 PM" src="https://user-images.githubusercontent.com/59305253/235506402-e9d6444f-347b-4924-95ce-4f1d0774f8ce.png">
 
 
 Tab Monster: Chrome Extension to Manage your Tabs
