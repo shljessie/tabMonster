@@ -1,13 +1,16 @@
 // the chrome tabs query will find the following url patterns to query
 // the await keyword is used to wait for promises to be resolved, asynchronous Promise operations 
 // asynchronous operation refers to a task or process that does not block the execution of the program while it is being performed. 
-const tabs = await chrome.tabs.query({
-  url: [
-    "http://*/*",
-    "https://*/*",
-    "https://www.google.com/*"
-  ],
-});
+let queryOptions = { active: true, lastFocusedWindow: true };
+const tabs = await chrome.tabs.query(queryOptions)
+
+// const tabs = await chrome.tabs.query({
+//   url: [
+//     "http://*/*",
+//     "https://*/*",
+//     "https://www.google.com/*"
+//   ],
+// });
 
 // The Intl.Collator is a constructor for creating a collator object,
 // which is used for string comparison. In this case, it is used to compare 
