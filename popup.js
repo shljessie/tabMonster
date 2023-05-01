@@ -3,14 +3,11 @@
 // asynchronous operation refers to a task or process that does not block the execution of the program while it is being performed. 
 const tabs = await chrome.tabs.query({
   url: [
-    "https://developer.chrome.com/docs/webstore/*",
-    "https://developer.chrome.com/docs/extensions/*",
+    "http://*/*",
+    "https://*/*",
+    "https://www.google.com/*"
   ],
 });
-// queried tabs have id, url, title ..etc
-
-console.log(tabs)
-
 
 // The Intl.Collator is a constructor for creating a collator object,
 // which is used for string comparison. In this case, it is used to compare 
