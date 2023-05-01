@@ -2,7 +2,7 @@
 <img width="260" alt="Screen Shot 2023-05-01 at 8 53 44 PM" src="https://user-images.githubusercontent.com/59305253/235506402-e9d6444f-347b-4924-95ce-4f1d0774f8ce.png">
 
 
-Tab Monster: Chrome Extension to Manage your Tabs
+# Tab Monster: Chrome Extension to Manage your Tabs
 
 What do you do when you have too many tabs open? 
 Struggling to find the right tab while doing many tasks?
