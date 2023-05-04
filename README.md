@@ -61,6 +61,12 @@ https://www.lateral.io/resources-blog/create-chrome-extension-modify-websites-ht
 Inserts a CSS stylesheet into a target context
 The css can be removed by calling scripting.removeCSS()
 
+
+### chrome.cookies
+Chrome.cookies can get information on a cookie and perform additional actions on that cookie.
+https://developer.chrome.com/docs/extensions/reference/cookies/
+
 <em>If you want to collaborate on this project, Contact me at jessielee.shl@gmail.com</em>
+
 
 
