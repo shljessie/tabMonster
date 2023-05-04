@@ -1,16 +1,22 @@
 # Tab Monster
+<img width="260" alt="Screen Shot 2023-05-01 at 8 53 44 PM" src="https://user-images.githubusercontent.com/59305253/235506402-e9d6444f-347b-4924-95ce-4f1d0774f8ce.png">
 
-Tab Monster: Chrome Extension to Manage your Tabs
+
+# Tab Monster: Chrome Extension to Manage your Tabs
 
 What do you do when you have too many tabs open? 
 Struggling to find the right tab while doing many tasks?
 
+<<<<<<< HEAD
 ## How to Use Tab Monster
 
 1. Download the code from this repo! You can save it as a folder to your computer.
 2. Head to Manage Extensions
 3. Turn on Developer Mode on the top left
 4. Click on Load Unpacked and load the Tab Monster Folder to your Computer!
+=======
+https://user-images.githubusercontent.com/59305253/235506347-bde1d575-85d3-4c3f-b52c-801abf3b207a.mp4
+>>>>>>> e1985d82c74e4bc241e15dd8535b58bc48cbd4b9
 
 
 <em>Coming Soon! Tab Monster on Chrome Webstore</em>
@@ -56,3 +62,5 @@ Inserts a CSS stylesheet into a target context
 The css can be removed by calling scripting.removeCSS()
 
 <em>If you want to collaborate on this project, Contact me at jessielee.shl@gmail.com</em>
+
+
